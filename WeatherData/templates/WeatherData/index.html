@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    {% load static %} 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hello!</title>
+    <meta name="description" content="description"/>
+    <meta name="author" content="author" />
+    <meta name="keywords" content="keywords" />
+    <link rel="stylesheet" href= "{% static 'stylesheet.css' %}" type="text/css" />
+  </head>
+  <body>
+
+    <form method="POST"> {% csrf_token %}
+      <input type="text" placeholder=" Enter City" name="city" />
+      <button type="submit"> Enter </button>
+    </form>
+
+    <img src="http://openweathermap.org/img/w/{{icon}}.png", width="100px"/>
+      <h1>{{description}}  </h1>
+      <h3>{{temp_max}}</h3>
+      <h4>{{temp_min}}</h4>
+      <h4>{{day}}</h4>
+      <h2>{{city}}</h2>
+      
+
+  </body>
+</html>
