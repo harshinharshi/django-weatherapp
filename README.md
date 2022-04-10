@@ -11,8 +11,6 @@ This is a basic web application using Django for displaying weather of different
 
 In this project, the user can input the cities and the corresponding weather of that city will be displayed with the help of OpenWeatherMap API. I have skipped the CSS part since I am focusing more on the backend. This project could be considered the basic project for understanding Django file structure and API usage.
 
-## Getting Started
-The following is a basic workflow that you can use as a quick reference for developing a Django Project.
 
 ### Dependencies
 
