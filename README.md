@@ -3,7 +3,6 @@ This is a basic web application using Django for displaying weather of different
 
 <h3>Important Links</h3>
 <ul>
-<li><a href="https://devcenter.heroku.com/articles/getting-started-with-python">Deployment using Heroku</a></li>
 <li><a href="https://openweathermap.org/api">Open Weather API</a></li>
 </ul>
 
